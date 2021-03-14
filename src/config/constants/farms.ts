@@ -18,7 +18,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    pid: 1,
+    pid: 2,
     lpSymbol: 'GAME-BNB LP',
     lpAddresses: {
       97: '0xe70b7523f4bffa1f2e88d2ba709afd026030f412',
@@ -33,7 +33,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    pid: 4,
+    pid: 5,
     lpSymbol: 'GAME-BUSD LP',
     lpAddresses: {
       97: '',
@@ -49,7 +49,7 @@ const farms: FarmConfig[] = [
     isCommunity: false,
   },
   {
-    pid: 2,
+    pid: 3,
     lpSymbol: 'BUSD-BNB LP',
     lpAddresses: {
       97: '0x2f7682b64b88149ba3250aee32db712964de5fa9',
@@ -64,7 +64,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    pid: 3,
+    pid: 4,
     lpSymbol: 'ETH-BNB LP',
     lpAddresses: {
       97: '0xE66790075ad839978fEBa15D4d8bB2b415556a1D',
