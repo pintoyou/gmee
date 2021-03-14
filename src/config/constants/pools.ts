@@ -3,22 +3,22 @@ import { PoolConfig, QuoteToken, PoolCategory } from './types'
 const pools: PoolConfig[] = [
   {
     sousId: 0,
-    tokenName: 'GAME',
-    stakingTokenName: QuoteToken.CAKE,
-    stakingTokenAddress: '0xe841F151992259113C46370Db1AdE55f4884850f',
+    tokenName: 'BEAN',
+    stakingTokenName: QuoteToken.BEAN,
+    stakingTokenAddress: '0xA0CcF44bA5d67E0095247F78C697Ad7cBD6E63e9',
     contractAddress: {
       97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
-      56: '0x6073036cdef163Ad776C783c261a37E24a2bcD18',
+      56: '0x402cC990fA250e78A20993a13972cD83Aa069D95',
     },
     poolCategory: PoolCategory.CORE,
-    projectLink: 'https://pancakeswap.finance/',
+    projectLink: 'http://blabla/',
     harvest: true,
-    tokenPerBlock: '10',
+    tokenPerBlock: '1',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
   },
-  
+
 ]
 
 export default pools
