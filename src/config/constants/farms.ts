@@ -46,6 +46,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+    isCommunity: false,
   },
   {
     pid: 2,
