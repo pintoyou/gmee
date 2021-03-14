@@ -14,7 +14,7 @@ const TweetCard = () => {
         <Heading size="lg">Latest Tweet From Gametoken</Heading>
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="SpaceX"
+          screenName="GameTokenFi"
           options={{ tweetLimit: '1' }}
           noHeader="true"
           noBorders="true"
