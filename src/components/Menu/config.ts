@@ -62,20 +62,16 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     items: [
       {
-        label: 'Voting',
-        href: 'https://voting.pancakeswap.finance',
-      },
-      {
         label: 'Github',
-        href: 'https://github.com/pancakeswap',
+        href: 'https://github.com/GameTokenFinance',
       },
       {
         label: 'Docs',
-        href: 'https://docs.pancakeswap.finance',
+        href: 'https://docs.gametoken.finance/',
       },
       {
         label: 'Blog',
-        href: 'https://pancakeswap.medium.com',
+        href: 'https://medium.com/@GameToken',
       },
     ],
   },
