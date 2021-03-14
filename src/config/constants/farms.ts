@@ -36,16 +36,16 @@ const farms: FarmConfig[] = [
     pid: 4,
     lpSymbol: 'GAME-BUSD LP',
     lpAddresses: {
-      97: '0xe70b7523f4bffa1f2e88d2ba709afd026030f412',
+      97: '',
       56: '0xb19671b42d0e4be5211fb5b0cf5ab9246c856aed',
     },
     tokenSymbol: 'GAME',
     tokenAddresses: {
-      97: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+      97: '',
       56: '0x7662786e7D78FC8Ed04E3517D4b9B9fEbe418cF7',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
   },
   {
     pid: 2,
