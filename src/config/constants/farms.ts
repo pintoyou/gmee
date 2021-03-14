@@ -7,42 +7,42 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CAKE',
     lpAddresses: {
       97: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
-      56: '0x7662786e7D78FC8Ed04E3517D4b9B9fEbe418cF7',
+      56: '0xe841F151992259113C46370Db1AdE55f4884850f',
     },
     tokenSymbol: 'SYRUP',
     tokenAddresses: {
       97: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
-      56: '0x7662786e7D78FC8Ed04E3517D4b9B9fEbe418cF7',
+      56: '0xe841F151992259113C46370Db1AdE55f4884850f',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 1,
+    lpSymbol: 'GAME-BNB LP',
+    lpAddresses: {
+      97: '0xe70b7523f4bffa1f2e88d2ba709afd026030f412',
+      56: '0x1c0f27324cd5eff727687d5427449a99651f5fa3',
+    },
+    tokenSymbol: 'GAME',
+    tokenAddresses: {
+      97: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+      56: '0xe841F151992259113C46370Db1AdE55f4884850f',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
   {
     pid: 2,
-    lpSymbol: 'GAME-BNB LP',
-    lpAddresses: {
-      97: '0xe70b7523f4bffa1f2e88d2ba709afd026030f412',
-      56: '0xf208984620aa408be350b8656afcd61fe5f3d67f',
-    },
-    tokenSymbol: 'GAME',
-    tokenAddresses: {
-      97: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
-      56: '0x7662786e7D78FC8Ed04E3517D4b9B9fEbe418cF7',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
-  },
-  {
-    pid: 5,
     lpSymbol: 'GAME-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0xb19671b42d0e4be5211fb5b0cf5ab9246c856aed',
+      56: '0x8b9665d4f62614fe8d312c0feec7319ee68d68cf',
     },
     tokenSymbol: 'GAME',
     tokenAddresses: {
       97: '',
-      56: '0x7662786e7D78FC8Ed04E3517D4b9B9fEbe418cF7',
+      56: '0xe841F151992259113C46370Db1AdE55f4884850f',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,

@@ -5,10 +5,10 @@ const pools: PoolConfig[] = [
     sousId: 0,
     tokenName: 'GAME',
     stakingTokenName: QuoteToken.CAKE,
-    stakingTokenAddress: '0x7662786e7D78FC8Ed04E3517D4b9B9fEbe418cF7',
+    stakingTokenAddress: '0xe841F151992259113C46370Db1AdE55f4884850f',
     contractAddress: {
       97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
-      56: '0xc3c2eAE09495D66dDc923837Bf60ee15aAe8A7f6',
+      56: '0x6073036cdef163Ad776C783c261a37E24a2bcD18',
     },
     poolCategory: PoolCategory.CORE,
     projectLink: 'https://pancakeswap.finance/',
